@@ -1,0 +1,55 @@
+@media only screen and (max-width:1040px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        height: 450px;
+        flex-direction: column;
+        transition: all 0.6s ease-out;
+    }
+
+    .rightnav{
+        text-align: center;
+    }
+    .text-big{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .box-main{
+        max-width: 100%;
+    }
+    #search{
+        width: 55%;
+        display: block;
+        margin: auto;
+        padding: 2px;
+        margin-bottom: 0px;
+    }
+    .btn-sm{
+        padding: 3px 7px;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav{
+       height: 52px; 
+    }
+    .v-class{
+        opacity: 0;
+    } 
+    .form{
+        max-width: 75%;
+    }  
+    .paras{
+        padding: 0;
+    }
+    
+}
+
+@media only screen and (max-width:950px){
+    .section{
+        flex-direction: column;
+        
+       }
+    
+}
